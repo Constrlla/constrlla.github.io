@@ -1,6 +1,6 @@
 body{
     margin:0px;
-    font-family: GOST Common;
+    font-family: GOST Common,Angsana New;
 }
 
 header{
@@ -31,9 +31,13 @@ header div{
     align-items: center;
 }
 
+.intro ul li{
+    font-size: 33px;
+}
+
 @keyframes colah{
     0% {color:red;}
-    50% {color:purple; transform: scale(1.2) rotate(5deg);}
+    50% {color:purple; transform: scale(1.2) rotate(360deg);}
     100% {color:red}
 }
 
@@ -95,4 +99,91 @@ header div{
     background-color: rgb(241, 241, 241);
 }
 
+.nav-button button{
+    background-color: rgb(255,255,255);
+    border: none;
+    padding: 10px 15px;
+    border-radius: 10px;
+    transition:all 100ms ease;
+    margin-left:1rem;
+}
 
+.nav-button button:hover{
+    background-color: rgb(150, 150, 150);
+    cursor: pointer;
+}
+
+
+.contact-section{
+    align-items: center;
+}
+
+.contact-section div{
+    font-size: 30px;
+}
+
+
+.selfie-display{
+    width: 10rem;
+    height: 10rem;
+    border-radius: 50%;
+}
+
+.card{
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSmsYLEDuPAcSI-3pKa5R0jY7JFWUso3uGjag&s');
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top:4rem;
+    border-radius: 15px;
+    padding: 15px 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(6, 10, 32);
+    color:white;
+    text-shadow: 4px 4px 5px black;
+    width: 200px;
+    height: 300px;
+}
+
+.selfie-display{
+    width: 20rem;
+    height: 20rem;
+    background-image: url('img/me.jpg');
+    background-size: cover;
+}
+
+.projects{
+    font-size: 33px;
+    padding:15px;
+    background-color: rgb(218, 218, 218);
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.i{
+    background-image:url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSs3bEk9VAlNMiih8KzqwlAiYVl5JScHAtPLg&s');
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+.iii{
+    background-image:url('https://i.redd.it/ksjoty9rm5081.jpg');
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+.iv{
+    background-image:url('https://thunderdungeon.com/wp-content/uploads/2024/10/tesla-ai-robot-memes-1-20241018.jpg');
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+.viii{
+    background-image:url('https://pbs.twimg.com/media/GQ2n6x2XEAA158P.jpg');
+    background-repeat: no-repeat;
+    background-size:cover;
+
+}
